@@ -1,1 +1,107 @@
 
+*{
+    background: #748B89;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    font-size: 72px;
+    text-align: center;
+    padding-top: 20px;
+}
+h2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.hold {
+    display: flex;
+    flex-direction: column;
+    background: #ABB9B8;
+    width: 30%;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.hold-image-1 {
+    background: url("hold_images/volume.jpeg");
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.hold-image-2 {
+    background: url("hold_images/crimp.png");
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.hold-image-3 {
+    background: url("hold_images/pocket.jpeg");
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.hold-image-4 {
+    background: url("hold_images/sloper.jpeg");
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.hold-image-5 {
+    background: url("hold_images/jug.jpeg");
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.hold-image-6 {
+    background: url("hold_images/pinch.jpeg");
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+
+.hold-description {
+    background-color: #ABB9B8;
+    font-size: 16px;
+}
+
+.hold-name {
+    background: #ABB9B8;
+    font-size: 36px;
+}
+
+
+
+
+@media (max-width: 1220px) { 
+    h2 {
+        flex-direction: column;
+
+    }
+
+    .hold {
+        width: 100%;
+        
+    }
+
+    h1{ 
+        font-size: 42px;
+    }
+}
